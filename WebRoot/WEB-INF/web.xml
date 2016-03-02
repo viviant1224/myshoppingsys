@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>houtailogin</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.houtailogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>goodsServlet</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.goodsServlet</servlet-class>
+  </servlet>
+  
+    <servlet>
+    <servlet-name>InitProvince</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.InitProvince</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>findcityServlet</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.findcityServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>findareaServlet</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.findareaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddGoodsServlet</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.AddGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updateGoods</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.updateGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updateGoodsServlet</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.updateGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ValidateImage</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.ValidateImage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QianTaiZhuCe</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.QianTaiZhuCe</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeNum</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.ChangeNum</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckUserInfo</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.CheckUserInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DianDanNum</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.DianDanNum</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>showMore</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.showMore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>findchildServlet</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.findchildServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>houtailogin</servlet-name>
+    <url-pattern>/houtailogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>goodsServlet</servlet-name>
+    <url-pattern>/goodsServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+   <servlet-name>InitProvince</servlet-name>
+    <url-pattern>/InitProvince</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findcityServlet</servlet-name>
+    <url-pattern>/findcityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findareaServlet</servlet-name>
+    <url-pattern>/findareaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGoodsServlet</servlet-name>
+    <url-pattern>/AddGoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateGoods</servlet-name>
+    <url-pattern>/updateGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateGoodsServlet</servlet-name>
+    <url-pattern>/updateGoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ValidateImage</servlet-name>
+    <url-pattern>/ValidateImage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QianTaiZhuCe</servlet-name>
+    <url-pattern>/QianTaiZhuCe</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeNum</servlet-name>
+    <url-pattern>/ChangeNum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckUserInfo</servlet-name>
+    <url-pattern>/CheckUserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DianDanNum</servlet-name>
+    <url-pattern>/DianDanNum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showMore</servlet-name>
+    <url-pattern>/showMore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findchildServlet</servlet-name>
+    <url-pattern>/findchildServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HouTaiZhuCe</servlet-name>
+    <url-pattern>/HouTaiZhuCe</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>isChat</servlet-name>
+    <url-pattern>/isChat</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindPassword</servlet-name>
+    <url-pattern>/FindPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Confirmname</servlet-name>
+    <url-pattern>/Confirmname</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+     <!-- 编码过滤器 -->
+  <filter>
+  	<filter-name>EncodingFilter01</filter-name>
+  	<filter-class>cn.com.shxt.filter.EncodingFilter</filter-class>
+  	<init-param>
+  		<param-name>character</param-name>
+  		<param-value>UTF-8</param-value>
+  	</init-param>
+  </filter>
+  
+  <filter-mapping>
+  
+  <filter-name>EncodingFilter01</filter-name>
+  <url-pattern>/*</url-pattern>
+  
+  
+  </filter-mapping>
+  <!-- 判断用户是否是登录状态 -->
+  <filter>
+  	<filter-name>isLoginfilter</filter-name>
+  	<filter-class>cn.com.shxt.filter.IsLogin</filter-class>
+  </filter>
+  
+  
+  <filter-mapping>
+  	<filter-name>isLoginfilter</filter-name>
+  	<url-pattern>/admin/*</url-pattern>
+  </filter-mapping>
+    <!-- 池连接 -->
+  <servlet>
+   <servlet-name>ServletConfigurator</servlet-name>
+   <servlet-class>
+		org.logicalcobwebs.proxool.configuration.ServletConfigurator
+   </servlet-class>
+   <init-param>
+      <param-name>xmlFile</param-name>
+      <param-value>WEB-INF/proxool.xml</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+</servlet>
+  <servlet>
+    <servlet-name>HouTaiZhuCe</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.HouTaiZhuCe</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>isChat</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.isChat</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindPassword</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.FindPassword</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Confirmname</servlet-name>
+    <servlet-class>cn.com.shxt.servlet.Confirmname</servlet-class>
+  </servlet>
+
+
+
+
+  
+  
+  
+  
+</web-app>

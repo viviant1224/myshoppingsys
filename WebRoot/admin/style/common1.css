@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font-family:'宋体','新宋体',arial,verdana,sans-serif,'Lucida Grande','Lucida Sans Unicode' font-size:12px; color:#000; line-height:150%; margin:0; }
+* {padding:0; margin:0; border:0;}
+
+
+
+TD {FONT-SIZE: 12px; COLOR: #333;}
+.solid-bottom {BORDER-BOTTOM: #dddddd 1px solid}
+
+.sec1  {
+background-color:  #F4F4F4;
+cursor:  hand;
+color:  #000000;
+border-left:  1px  solid  #FFFFFF;
+border-top:  1px  solid  #FFFFFF;
+border-right:  1px  solid  gray;
+border-bottom:  1px  solid  #FFFFFF
+}
+.sec2  {
+background-color:  #DAEBFF;
+cursor:  hand;
+color:  #58A200;
+border-left:  1px  solid  #FFFFFF;
+border-top:  1px  solid  #FFFFFF;
+border-right:  1px  solid  gray;
+font-weight:  bold;
+}
+
+
+
+
+
+TD {FONT-SIZE: 12px; COLOR: #333;}
+.solid-bottom {BORDER-BOTTOM: #dddddd 1px solid}
+
+.sec1  {
+background-color:  #F4F4F4;
+cursor:  hand;
+color:  #000000;
+border-left:  1px  solid  #FFFFFF;
+border-top:  1px  solid  #FFFFFF;
+border-right:  1px  solid  gray;
+border-bottom:  1px  solid  #FFFFFF
+}
+.sec1 a,.sec1 a:link,.sec1 a:hover,.sec1 a:active,.sec1 a:visited{
+cursor:  hand;
+color:  #000000;
+text-decoration:none;
+}
+.sec2  {
+background-color:  #DAEBFF;
+cursor:  hand;
+color:  #58A200;
+border-left:  1px  solid  #FFFFFF;
+border-top:  1px  solid  #FFFFFF;
+border-right:  1px  solid  gray;
+font-weight:  bold;
+}
+.sec2 a,.sec2 a:link,.sec2 a:hover,.sec2 a:active,.sec2 a:visited{ background-color:  #DAEBFF;
+cursor:  hand;
+color:  #58A200;
+font-weight:  bold;
+text-decoration:none;
+}
+
+
+
+
+div,ul,li,img1 {border:0; margin:0; padding:0; list-style-type:none;}
+td,th {font-size:12px;}
+a {color:#0c3950; font-size:12px; line-height:150%;}
+a:link {color:#0c3950; font-size:12px; line-height:150%;}
+a:active {color:#0c3950; font-size:12px; line-height:150%;}
+a:visited {color:#0c3950; font-size:12px; line-height:150%;}
+a:hover {color:#0c3950; font-size:12px; line-height:150%; text-decoration:underline;}
+
+/*TOP*/
+.top_bg {background:url(../images/top_bg.jpg) repeat-x;}
+.top_bg1 {background:url(../images/top_title_bg.jpg) left no-repeat;  line-height:68px; color: #000; padding-left:68px;}
+.top_title {line-height:68px; color: #000; font-family:"微软雅黑","黑体"; font-size:26px; font-weight:bold;}
+.top_title span {color:#871417;}
+.top_meun_bg {background:url(../images/top_meun_bg.jpg) repeat-x;}
+.meun {font_size:12px; color:#FFF; padding-top:8px;}
+.meun a,.meun a:link,.meun a:visited,.meun a:active {color:#fff; font-size:12px; text-decoration:none;}
+.meun a:hover {text-decoration:underline;}
+.meun span {background:url(../images/top_meun_bg1.jpg) right no-repeat; padding-left:6px; padding-right:6px;}
+/*main*/
+.body_bg {background:url(../images/main_bg.jpg) top repeat-x fixed;}
+.body_bg1 {background:url(../images/main_bg1.jpg) top repeat-x fixed;}
+.bg {background:url(../images/bg.jpg) top repeat-x fixed;}
+/*LEFT*/
+.left_name_bg {background:url(../images/left_name_bg.jpg) no-repeat;}
+.left_meun_bg_03 {background:url(../images/left_meun_bg_03.jpg) repeat-y;}
+.left_meun_bg_bottom {background:url(../images/left_meun_bg_bottom.jpg) no-repeat;}
+.left_name {color:#FFF; font-family:Verdana, Geneva, sans-serif; font-size:12px; line-height:22px; letter-spacing:3px; padding-top:3px; filter:
+        Dropshadow(offx=1,offy=0,color=#2b43bd)
+        Dropshadow(offx=0,offy=1,color=#2b43bd)
+        Dropshadow(offx=0,offy=-1,color=#2b43bd)
+        Dropshadow(offx=-1,offy=0,color=#2b43bd);}
+.left_name_01 {color:#fff; font-size:12px;}
+.left_name_01 a,.left_name_01 a:link,.left_name_01 a:active,.left_name_01 a:visited {color:#FFF; font-size:12px; text-decoration:none;}
+.left_name_01 a:hover {text-decoration:underline;}
+.left_js_title {background:url(../images/left_meun_bg_01.jpg) no-repeat; padding-left:28px; font-size:14px; color:#0c4864;}
+.left_js_title a,.left_js_title a:link,.left_js_title a:active,.left_js_title a:visited,.left_js_title a:hover {font-size:14px;  text-decoration:none; color:#0c4864; font-weight:bold;}
+.left_js_meun {background:url(../images/left_meun_bg_02.jpg) no-repeat; padding-left:22px; font-size:12px; color:#185067;}
+.left_js_meun a,.left_js_meun a:link,.left_js_meun a:visited,{font-size:12px;  text-decoration:none; color:#185067;}
+.left_js_meun a:hover,.left_js_meun a:active {font-weight:bold;}
+/*bottom*/
+.bottom_bg {background:url(../images/bottom_bg.jpg) repeat-x; padding-top:5px; line-height:28px; color:#000; font-size:12px;}
+
+
+

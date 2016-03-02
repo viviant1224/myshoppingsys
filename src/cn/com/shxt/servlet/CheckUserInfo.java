@@ -1,0 +1,68 @@
+package cn.com.shxt.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import cn.com.shxt.service.UserService;
+
+public class CheckUserInfo extends HttpServlet {
+
+	UserService service = new UserService();
+	private static final long serialVersionUID = -8400458497986317809L;
+
+	public void destroy() {
+		super.destroy(); // Just puts "destroy" string in log
+		// Put your code here
+	}
+
+	
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		this.doPost(request, response);
+	}
+
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		String userName = request.getParameter("userName");
+		String password = request.getParameter("password");
+		String sql = "select * from SHOPVIP t where USERNAME = '"+userName+"'";
+		List<Map<String,String>> userList = service.query(sql);
+		
+		System.out.println("username"+userName+"password"+password);
+		if(userList.size()>0) {
+			System.out.println("--66");
+			if(userList.get(0).get("PASSWORD").equals(password)) {
+				request.getSession().setAttribute("userNameqiantai", userName);
+				out.print(1);
+			} else {
+				out.print(2);
+			}
+			
+		} else {
+			
+			out.print(3);
+		}
+		out.flush();
+		out.close();
+	}
+
+	/**
+	 * Initialization of the servlet. <br>
+	 *
+	 * @throws ServletException if an error occurs
+	 */
+	public void init() throws ServletException {
+		// Put your code here
+	}
+
+}

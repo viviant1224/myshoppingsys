@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	
+/*other*/
+.h2_bg1{ background:url(../img/h2_bg.gif) repeat-x top left;}
+.h2_1{ line-height:0px; font-size:0; text-indent:-5000px; background:url(../img/h2_2.gif) no-repeat 12px 10px; width:242px; height:34px;}
+.h2_2{ line-height:0px; font-size:0px; text-indent:-5000px; background:url(../img/h2_3.gif) no-repeat 8px 18px; margin-left:21px; border-bottom:#d2d2d2 1px solid; width:678px; height:51px;}
+.more_1{ float:right; padding:19px 5px 8px 0 ;}
+.item_1{ position:absolute; right:20px; top:14px; line-height:29px;}
+.item_1 a{ color:#858585;}
+.item_1 a:hover{ text-decoration:underline;} 
+.js{ clear:left; display:inline;} 
+.strong_1{ font-weight:bold;}

@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+body { font-family:"宋体"; font-size:12px; color:#386992; margin:0; background:#fff;}
+* { margin:0px; padding:0px; list-style:none; border:none;}
+
+/* wrap */
+#wrap { width:100%;}
+
+/* homepage */
+#home { position:absolute; top:50%; left:50%; margin:-200px 0 0 -215px; width:393px; height:362px; background:url(../img/main_bg.gif) no-repeat;}
+#home #tit3 { padding:16px 56px 16px 45px; width:291px; height:35px; background:url(../img/home_titbg.gif) bottom no-repeat;}
+#home #main1 { padding-top:11px; width:393px; height:284px; background:url(../img/home_img.gif) 32px 21px no-repeat;}
+#home #main1 .dl3 { padding-left:170px; padding-bottom:10px; width:223px; height:23px; font-size:14px; font-weight:bold;}
+#home #main1 .dl3 dt { float:left; width:60px; line-height:23px;}
+#home #main1 .dl3 dd { float:left; width:163px; line-height:23px;}
+#home #main1 .btn4 { padding:0 65px 0 195px; width:133px; height:29px; line-height:29px; text-align:center;}
+
+/* header */
+#header { width:100%; height:131px; margin:0 auto; background:#3300FF;}
+#header #top { width:100%; height:105px; background:url(../img/top_bg.gif) repeat-x;}
+#header #top .logo { width:100%; height:79px;}
+h1 { float:left; padding:24px 0 0 130px; width:286px; height:55px; background:url(../img/logo_bg.gif) 40px 6px no-repeat;} 
+#header #top .bg { float:left; width:31%; height:79px;}
+#header #top .nav { float:right; padding-top:59px; font-size:14px; font-weight:bold; width:27%; height:20px;}
+#header #top .nav li { float:left; padding-left:18px; width:25%; background:url(../img/nav_icon.gif) left top no-repeat;}
+#header #top .nav li a { text-decoration:none; color:#386992;}
+#header #top .nav li.li1 { float:left; padding-left:18px; width:25%; background:url(../img/nav_icon1.gif) left top no-repeat;}
+#header #top .nav li.li2 { float:left; padding-left:18px; width:25%; background:url(../img/nav_icon2.gif) left top no-repeat;}
+#header #top .link { width:100%; height:26px;}
+#header #top .link .nav1 { float:left; display:block; padding-left:31%; padding-top:5px; width:44%; height:21px; font-weight:bold; color:#f4f8fb;}
+#header #top .link .nav1 li { float:left; padding-left:35px; width:10%; background:url(../img/nav1_icon1.gif) left top no-repeat;}
+#header #top .link .nav1 li a { text-decoration:none; color:#f4f8fb;}
+#header #top .link .nav1 li.li3 { float:left; padding-left:35px; width:10%; background:url(../img/nav1_icon2.gif) left top no-repeat;}
+#header #top .link .nav1 li.li4 { float:left; padding-left:35px; width:10%; background:url(../img/nav1_icon3.gif) left top no-repeat;}
+#header #top .link .nav1 li.li5 { float:left; padding-left:35px; width:10%; background:url(../img/nav1_icon4.gif) left top no-repeat;}
+#header #top .link .time { float:right; padding:8px 0 0 35px; width:20%; height:18px; color:#f4f8fb; text-align:left; background:url(../img/top1_icon.gif) left center no-repeat;}
+#header #top1 { height:26px; background:#f4f8fb; position:relative;}
+#header #top1 .tit { position:absolute; top:0px; left:0px; width:24%; height:26px; background: url(../img/header_tit.gif) no-repeat;}
+#header #top1 .tit1 { position:absolute; top:0px; right:4px; width:76%; height:26px; background: url(../img/header_tit1.gif) right no-repeat;}
+
+/* left */
+#left { width:197px; height:1000px; background:#f4f8fb;}
+#left #main { margin:0 14px 0 13px; width:170px; background:url(../img/left_bg.gif) repeat-y;}
+
+/* right1 */
+#right { width:100%; position:relative; background:#f4f8fb;}
+#right #content { width:98%; height:510px; background:#f5f6fa;}
+#right #content .leftbg { width:28px; height:510px; position:absolute; top:0px; left:0px; background:url(../img/right_leftbg1.gif) left repeat-y;}
+#right #content .rightbg { width:28px; height:510px; position:absolute; top:0px; right:0px; background:url(../img/right_rightbg1.gif) right repeat-y;}
+#right #content .main { padding:0 49px 0 49px;}
+#right #content .main .tit { float:left; width:11px; height:24px; background:url(../img/right_tableft.gif) left no-repeat;}
+#right #content .main .titbg { float:left; padding:0px 32px 0 28px; width:62px; height:24px; font-size:14px; font-weight:bold; line-height:24px; background:url(../img/right_tabright.gif) right no-repeat;}
+#right #content .main .tab1 { width:100%; line-height:25px; border-top:#386992 3px solid; border-left:#386992 1px solid; clear:both; background:#f8fcff;}
+#right #content .main .tab1 th { line-height:25px; border-bottom:#386992 1px solid; border-right:#386992 1px solid; clear:both;}
+#right #content .main .tab1 td { line-height:25px; text-align:center; border-bottom:#386992 1px solid; border-right:#386992 1px solid; clear:both;}
+#right #content .main .btn1 { width:100%; height:45px; text-align:center;}
+
+/* right2 */
+#right #content .main3 { padding:15px 49px 0 49px;}
+#right #content .main3 .tab2 { margin-bottom:20px; width:100%; height:149px; border:#6d8db3 1px solid; background:#fff;}
+#right #content .main3 .tab2 td .dl1 { padding:6px 0 0 14px; width:117px; height:143px;}
+#right #content .main3 .tab2 td .dl1 dt { width:117px; height:122px;}
+#right #content .main3 .tab2 td .dl1 dd { width:117px; height:27px; font-size:14px; font-weight:bold; text-align:center;}
+#right #content .main3 .tab2 td .dl2 { padding:10px 0; width:198px; height:26px; line-height:26px;}
+#right #content .main3 .tab2 td .dl2 dt { float:left; width:64px; height:26px; line-height:26px;}
+#right #content .main3 .tab2 td .dl2 dd { float:left; width:134px; height:26px; line-height:26px;}
+#right #content .main3 .tab2 td .btn9 { text-align:right; padding:10px 0; width:198px; height:26px; line-height:26px;}
+#right #content .main3 .tab3 { width:100%; height:600px;}
+
+
+
+/* right3 */
+#right #content .main .bottom { float:left; padding:20px 0px 0 20px; width:45%; height:36px;}
+#right #content .main .bottom1 { float:left; text-align:right; padding:20px 20px 0 0; width:45%; height:36px;}
+
+/* right4 */
+#right #content1 { width:98%; height:300px; background:#f5f6fa;}
+#right #content1 .main2 { padding:20px 40px 0 0px;}
+#right #content1 .main2 .tab2 { width:100%; line-height:25px; border-top:#386992 3px solid; border-left:#386992 1px solid; clear:both; background:#fff;}
+#right #content1 .main2 .tab2 th { line-height:25px; border-bottom:#386992 1px solid; border-right:#386992 1px solid; background:#bed9f8;}
+#right #content1 .main2 .tab2 td { line-height:25px; text-align:center; border-bottom:#386992 1px solid; border-right:#386992 1px solid;}
+#right #content1 .main2 .bottom1 { float:left;!important; text-align:right; padding:20px 20px 0 0; width:100%; height:36px;}
+
+/* font */
+.font { font-weight:normal;}
+
+/* mg */
+.mg { margin-bottom:40px;}
+.mg1 { margin-top:40px;}
+/* img */
+.img1 { background:url(../img/icon1.gif) 1px 5px no-repeat;}
+.img2 { background:url(../img/icon2.gif) 1px 5px no-repeat;}
+
+/* btn */
+.btn2 { margin-right:30px; width:82px; height:23px;  color:#386992; background:url(../img/right_bottom.gif) no-repeat;}
+.btn3 { margin-left:30px; width:82px; height:23px;  color:#386992; background:url(../img/right_bottom.gif) no-repeat;}
+.btn5 { float:left; width:60px; height:21px; font-size:14px; font-weight:bold; color:#fff; background:url(../img/btn_bg.gif) no-repeat;}
+.btn6 { float:right; width:60px; height:21px; font-size:14px; font-weight:bold; color:#fff; background:url(../img/btn_bg.gif) no-repeat;}
+.btn7 { margin-right:4px; width:44px; height:18px; color:#112d45; background:url(../img/sup_bg.gif) no-repeat;}
+.btn8 { width:17px; height:14px; background:url(../img/table3_btn.gif) no-repeat;}
+.btn10 { width:80px; height:25px; color:#fff; background:url(../img/tabtop_serch.gif) no-repeat;}
+
+/* txt */
+.txt1 { width:27px; height:17px; border:#6587b4 1px solid;}
+.txt2 { width:119px; height:21px; border:#6d8db3 1px solid;}
+.txt3 { float:left; margin-right:12px; width:53px; height:21px; border:#6d8db3 1px solid;}
+.txt4 { width:130px; height:21px; border:#6d8db3 1px solid;}
+
+/* bg */
+.bgheight { height:400px;}
+
+/* footer */
+#footer { padding-top:12px; width:100%; height:40px; background:url(../img/footer_bg.gif) repeat-x; text-align:center;}

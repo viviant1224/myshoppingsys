@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*适用于整个界面*/
+body{ margin:0px; background:#FFFFFF; font-size:12px; color:#000000;}
+*{ margin:0px; padding:0px; list-style:none; border:none;}
+/*wrap*/
+#wrap{ width:100%;}
+
+/*top*/
+#header{ position:relative; width:1024px; height:89px; margin:0 auto;}
+#header h1{ position:absolute; top:15px; left:33px;}
+/*enter*/
+#enter{ width:454px; height:346px; margin:0 auto; margin-top:50px; padding-left:6px; background:url(../images/bg_enter.jpg) left no-repeat;}
+#enter #pace{ position:relative; width:447px; height:345px; border-top:solid 1px #dedede; border-right:solid 1px #dedede; background:url(../images/bg_pace.jpg) bottom no-repeat;}
+#enter #pace #logo{ position:absolute; top:37px; left:17px;}
+#enter #pace #name{ position:absolute; top:121px; left:60px; width:300px; height:26px;}
+#enter #pace #psw{ position:absolute; top:181px; left:60px; width:361px; height:26px;}
+#enter #pace #psw span a{ font-size:12px; line-height:26px; text-decoration:none; margin-left:3px;}
+#enter #pace p{ float:left; width:66px; height:26px; line-height:26px; font-size:16px;}
+#enter #pace .txt{ float:left; width:230px; height:24px; border:solid 1px #999999;}
+#enter #pace #btn{ position:absolute; top:241px; left:112px; width:218px; height:27px;}
+#enter #pace #btn .b1{ width:92px; height:27px; margin-right:27px; background:url(../images/bg_btn8.jpg) no-repeat;}
+#enter #pace #btn .b2{ width:92px; height:27px; background:url(../images/bg_btn8.jpg) no-repeat;}
+
+/*ads*/ 
+#ads { width:968px; height:50px; margin:0 auto; margin-top:50px; background:url(../images/ads.jpg);}
+
+/*bottom*/
+#bottom { width:1024px; height:68px; margin:0 auto; padding-top:10px; text-align:center; border-top: solid 2px #8f0900;}

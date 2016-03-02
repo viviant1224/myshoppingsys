@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网站商城后台管理系统left</title>
+<script src="js/prototype.lite.js" type="text/javascript"></script>
+<script src="js/moo.fx.js" type="text/javascript"></script>
+<script src="js/moo.fx.pack.js" type="text/javascript"></script>
+<style>
+body {
+	font:12px Arial, Helvetica, sans-serif;
+	color:#386992;
+	background-color:#f5f6fa;
+	margin:0px 1px;
+}
+#container {
+	width: 166px;
+}
+H2 {
+	font-size: 12px;
+	margin:0px 1px;
+	width: 166px;
+	cursor: pointer;
+	height: 30px;
+	line-height: 20px;	
+	background:#f5f6fa url(images/dian.gif) bottom repeat-x;
+}
+H2 a {
+	display: block;
+	width: 166px;
+	color: #000;
+	height: 30px;
+	text-decoration: none;
+	moz-outline-style: none;
+	line-height: 30px;
+	text-align: center;
+	background:url(images/lefta_icon.gif) 30px 7px no-repeat;
+	margin:0px 1px;
+	padding: 0px;
+	color:#386992;
+}
+.content{
+	width: 166px;
+	height: 26px;
+	color:#386992;
+	
+}
+.MM ul {
+	list-style-type: none;
+	margin:0px 1px;
+	padding: 0px;
+	display: block;
+	color:#386992;
+}
+.MM li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 26px;
+	color: #386992;
+	list-style-type: none;
+	display: block;
+	text-decoration: none;
+	background:url(images/icon.gif) 45px 10px no-repeat;
+	height: 26px;
+	width: 166px;
+	padding-left: 0px;
+}
+.MM {
+	width: 166px;
+	margin:0px 1px;
+	padding: 0px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	clip: rect(0px,0px,0px,0px);
+	color:#386992;
+}
+.MM a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 26px;
+	color: #386992;
+	height: 26px;
+	width: 166px;
+	display: block;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	text-decoration: none;
+}
+.MM a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 26px;
+	color:#386992;
+	display: block;
+	text-align: center;
+	margin:0px 1px;
+	padding: 0px;
+	height: 26px;
+	width: 166px;
+	text-decoration: none;
+}
+.MM a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 26px;
+	color:#386992;
+	height: 26px;
+	width: 166px;
+	display: block;
+	text-align: center;
+	margin:0px 1px;
+	padding: 0px;
+	overflow: hidden;
+	text-decoration: none;
+}
+.MM a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #386992;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 26px;
+	width: 166px;
+	text-decoration: none;
+}
+</style>
+<link href="style/main.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<div id="left">
+		<div id="main">
+			 <h2 class="type"><a href="javascript:void(0)">商品管理</a></h2>
+      <div class="content">
+        <ul class="MM">
+          <li><a href="../InitProvince?flag=houtai" target="iframe">商品入库</a></li>
+          <li><a href="../goodsServlet?flag=goodsSearch&flagisShangjia=yes" target="iframe">上架管理</a></li>
+          <li><a href="../goodsServlet?flag=goodsSearch&flagisShangjia=no" target="iframe">商品操作</a></li>
+         
+        </ul>
+      </div>
+      <h2 class="type"><a href="javascript:void(0)">客户管理</a></h2>
+      <div class="content">
+        <ul class="MM">
+          <li><a href="../UserServlet?flag=userSearch" target="iframe">客户查看</a></li>
+          <li><a href="../goodsServlet?flag=houtaituihuoSearch" target="iframe">退货查询</a></li>
+        </ul>
+      </div>
+      <h2 class="type"><a href="javascript:void(0)">销售统计</a></h2>
+      <div class="content">
+        <ul class="MM">
+		  <li><a href="../goodsServlet?flag=xiaoshouSerarch" target="iframe">销售查询</a></li>
+          <li><a href="/myshoppingsys/admin/sysjsp/occupation_statistics.jsp" target="iframe">销量统计</a></li>
+          <li><a href="/myshoppingsys/admin/sysjsp/lirunoccupation_statistics.jsp" target="iframe">利润统计</a></li>
+       
+        </ul>
+      </div>
+<script type="text/javascript">
+		var contents = document.getElementsByClassName('content');
+		var toggles = document.getElementsByClassName('type');
+	
+		var myAccordion = new fx.Accordion(
+			toggles, contents, {opacity: true, duration: 400}
+		);
+		myAccordion.showThisHideOpen(contents[0]);
+	</script>
+        </td>
+  </tr>
+</table>
+		</div>
+	</div>
+</body>
+</html>
